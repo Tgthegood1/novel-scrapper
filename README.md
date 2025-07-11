@@ -20,7 +20,7 @@ https://drive.google.com/drive/folders/1_bQ0g131S9xgkAfMhTJqjV1j-WAtWUw2?usp=dri
 '''
 const { webnovel, fanmtl } = require("novel-scraper");
 
-# For Webnovel.com
+//For Webnovel.com
 webnovel(
   "https://www.webnovel.com/book/multiverse-dimensional-magic-store_32835537600317305/kel'thuzad's-staff_88163497120154516",
   "C:/Users/Tgthegood/Documents/Novels"
@@ -28,7 +28,7 @@ webnovel(
   .then(() => console.log("Scraping completed"))
   .catch(err => console.error("Error:", err));
 
-# For Fanmtl.com
+//For Fanmtl.com
 fanmtl(
   "https://www.fanmtl.com/novel/699967081_1.html",
   "C:/Users/Tgthegood/Documents/Novels",
