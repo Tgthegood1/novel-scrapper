@@ -17,7 +17,7 @@ You can download the Ublock folder from this link:
 https://drive.google.com/drive/folders/1_bQ0g131S9xgkAfMhTJqjV1j-WAtWUw2?usp=drive_link
 
 # Example
-'''
+```
 const { webnovel, fanmtl } = require("novel-scraper");
 
 //For Webnovel.com
@@ -36,7 +36,7 @@ fanmtl(
 )
   .then(() => console.log("Scraping completed"))
   .catch(err => console.error("Error:", err));
-'''
+```
 
 # Requirements
 - Node.js
