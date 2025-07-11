@@ -1,0 +1,15 @@
+{
+  "name": "novel-scraper",
+  "version": "1.0.0",
+  "description": "Made to scraping novels with Puppeter",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["scraper", "novels", "puppeteer", "web-scraping"],
+  "author": "Wilder Cruz Plata",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-real-browser": "^1.4.2"
+  }
+}
